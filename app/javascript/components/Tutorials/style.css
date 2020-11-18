@@ -1,0 +1,75 @@
+.container-tutorials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.tutorials-section {
+    position: relative;
+    width: 25%;
+
+}
+.tutorials-section img {
+    width: 100%;
+    display: block;
+}
+.tutorials-design {
+    color: #FFFFFF;
+    background-color: #DD5FD3;
+    padding: 6px 15px;
+    border-radius: 10rem;
+    border: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-family: 'SP Pro Regular';
+    font-size: 75%;
+}
+.conteiner-sections{
+    display: flex;
+}
+.tutorials-banner{ 
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    position: absolute;
+    bottom: 10%;
+    color: #fff;
+    background-color: #707070;
+    font-family: 'SP Pro Regular';
+    text-align: center;
+    font-size: 14px;
+}
+.container-toturials-title{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.toturials-title {
+    font-size: 36px;
+    font-family: 'Ample Soft Pro';
+    color: #707070;
+}
+.toturials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+}
+.toturials-title::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #6a5deb, #67b94e, #ed5e5f, #ffa84c, gray);
+}
+.container-links ul:nth-child(1){
+    text-align: right;
+}
+.container-links ul:nth-child(3){
+    text-align: left;
+}

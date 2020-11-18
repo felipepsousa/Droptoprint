@@ -1,0 +1,15 @@
+<svg id="IMG-LUPA" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_15" data-name="Path 15" d="M44.531-28.994a27.373,27.373,0,0,1-27.868,4.709C5.4-28.891-1.772-41.846.381-53.9S13.75-75.717,26.288-76c.231,0,.461-.005.692,0C39.3-75.883,50.918-66.372,53.2-54.065a27.406,27.406,0,0,1-6.833,23.292L68.6-9.151c.477.5.394.671.387.951a1.323,1.323,0,0,1-2.169.882ZM26.649-73.443c-11,.1-21.319,8.422-23.606,19.25a24.775,24.775,0,0,0,6.8,22.422,24.733,24.733,0,0,0,26.139,5.118c10.228-4.182,16.734-16,14.7-26.945A24.872,24.872,0,0,0,27.277-73.439C27.068-73.442,26.859-73.443,26.649-73.443Z" transform="translate(0 76)" fill="#4a8fff" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_14" data-name="Path 14" d="M-1204,574.47H248.631V-515H-1204Z" transform="translate(1204.001 515)" fill="#4a8fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="Group_15" data-name="Group 15" transform="translate(-1093.105 -398.564)" clip-path="url(#clip-path-2)">
+      <path id="Path_13" data-name="Path 13" d="M-5-81H73.079V-2.921H-5Z" transform="translate(1093.566 475.025)" fill="#4a8fff"/>
+    </g>
+  </g>
+</svg>

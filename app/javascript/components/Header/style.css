@@ -1,0 +1,106 @@
+.container-header {
+    background-color: #380a54;
+    height: 66px;
+    width: 100%;
+    font-family: 'SP Pro Regular';
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.logo-header img{
+    height: 50px;
+}
+.container-header-items {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header {
+    display: flex;
+}
+.menu-header img,
+.user-header img {
+    height: 24px;
+}
+.menu-header div,
+.user-header{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 16px;
+    cursor: pointer;
+}
+.menu-header div span,
+.user-header span{
+    margin-top: 8px;
+}
+.menu-header-option{
+    margin: 0 20px;
+    cursor: pointer;
+}
+.menu-header-option a {
+    display: flex;
+    height: 54px;
+    line-height: 6;
+    z-index: 999;
+    color: #fff;
+    position: relative;
+}
+.menu-header-option:hover a{
+    color: #00ac92;   
+}
+.menu-header-option::before,
+.user-header span::before {
+    content: " ";
+    display: block;
+    width: 42px;
+    height: 26px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    position: absolute;
+    top: 8px;
+}
+.user-header span::before{
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+/* Adiciona os icons do menu */
+.menu-header-option:nth-child(1)::before {
+    background: url('../../../assets/images/search-white.svg') no-repeat;
+    background-size: auto 26px;
+}
+.menu-header-option:nth-child(2)::before {
+    background: url('../../../assets/images/menu-white.svg') no-repeat;
+    background-size: auto 26px;
+}
+.menu-header-option:nth-child(3)::before {
+    background: url('../../../assets/images/shop-white.svg') no-repeat;
+    background-size: auto 26px;
+}
+.user-header span:nth-child(1)::before {
+    background: url('../../../assets/images/user-white.svg') no-repeat;
+    background-size: auto 26px;
+}
+
+/* Adiciona os icons do menu qunado for :hover */
+.menu-header-option:hover:nth-child(1)::before {
+    background: url('../../../assets/images/search.svg') no-repeat;
+    background-size: auto 26px;
+}
+.menu-header-option:hover:nth-child(2)::before {
+    background: url('../../../assets/images/menu.svg') no-repeat;
+    background-size: auto 26px;
+}
+.menu-header-option:hover:nth-child(3)::before {
+    background: url('../../../assets/images/shop.svg') no-repeat;
+    background-size: auto 26px;
+}
+.user-header span:hover:nth-child(1)::before {
+    background: url('../../../assets/images/user.svg') no-repeat;
+    background-size: auto 26px;
+}
+

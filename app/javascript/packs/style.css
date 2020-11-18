@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Ample Soft Pro';
+    src: url('../../assets/fonts/FontsFree-Net-AmpleSoftPro.ttf');
+}
+@font-face {
+    font-family: 'SP Pro Regular';
+    src: url('../../assets/fonts/FontsFree-Net-SFProText-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}

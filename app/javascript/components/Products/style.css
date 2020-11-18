@@ -1,0 +1,47 @@
+.container-products {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px dashed #e5e5e5;
+    padding: 20px 0px;
+}
+.products,
+.informations-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.products img{
+    max-height: 250px;
+    max-width: 491px;
+}
+.informations-button span{
+    font-size: 16px;
+    width: 400px;
+    text-align: center;
+    margin: 24px 0px;
+    font-family: 'SP Pro Regular';
+    color: #707070;
+}
+.informations-button button {
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    background-color: #00ac92;
+    color: #fff;
+    border-radius: 45px;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.informations-button button:hover {
+    filter: brightness(0.9);
+}
+.title-products {
+    font-size: 24px;
+    display: block;
+    font-family: 'Ample Soft Pro';
+    color: #707070;
+    margin: 18px 0px;
+}
